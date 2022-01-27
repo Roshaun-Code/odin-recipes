@@ -2,11 +2,21 @@ body{
     background-color: #BFC0C0;
 }
 
+a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    border-bottom: rgb(219, 219, 219) solid 3px;
+}
+
 div{
     margin-left: 400px;
     margin-right: 400px;
     margin-top: 20px;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 .heading{
@@ -14,18 +24,25 @@ div{
     color: rgb(219, 219, 219);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
+    border: rgb(219, 219, 219) solid 3px;
 }
 
 .soma{
+    margin-top: 10px;
     text-align: center;
-    border-image: 3px #4F5D75;
+    border-image: #4F5D75 solid 3px;
 }
 
 .links{
+    background-color: #4F5D75;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
     color: white;
+    border: rgb(219, 219, 219) solid 3px;
+}
+
+.links a{
     text-decoration: none;
 }
+
